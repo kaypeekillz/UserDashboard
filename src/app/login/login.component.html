@@ -1,0 +1,40 @@
+<div class="row main">
+    <div class="black_column col-md-8 col-sm-8 col-xs-0 col-lg-8">
+
+    </div>
+    <div class="white_column col-md-4 col-sm-4 col-xs-12 col-lg-4">
+        <div class="row">
+            <!-- <span class="text_s">S</span> <span>Express Lands</span> -->
+            <div class="col-2 p-0 d-flex justify-content-center">
+                <p class="text_s">S</p>
+            </div>
+            <div class="col-10 p-0 d-flex justify-content-start">
+                <p class="text_express">Express Lands</p>
+            </div>
+        </div> 
+        <div class="login">
+            <p class="login_header">
+                Login to your Account
+            </p>
+            <p class="login_text">
+                Welcome back! Please login to your account
+            </p>
+        </div>
+        <div class="form">
+            <form [formGroup]="loginForm">
+                <div class="username mb-3">
+                    <input class="username_input" type="text" placeholder="Username" formControlName="username">
+                </div>
+                <div class="password mb-3">
+                    <input class="password_input" type="password" placeholder="Enter Password" formControlName="password">
+                </div>
+                <button routerLink="/dashboard" class="loginBtn mb-3">LOG IN</button>
+              </form>
+              <div class="forget_password">
+                  <p class="forget_passwordtxt">Forgot Password?</p>
+              </div>
+        </div>
+
+    </div>
+
+</div>

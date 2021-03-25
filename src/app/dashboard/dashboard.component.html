@@ -1,0 +1,256 @@
+<div class="main">
+    <div class="row">
+        <div class="col-md-4 col-lg-3 col-sm-12 left_column p-5">
+            <div class="row">
+                <!-- <span class="text_s">S</span> <span>Express Lands</span> -->
+                <div class="col-2 p-0 d-flex justify-content-center">
+                    <p class="text_s">S</p>
+                </div>
+                <div class="col-10 p-0 d-flex justify-content-start">
+                    <p class="text_express">Express Lands</p>
+                </div>
+            </div> 
+            <div class="dashboard">
+                <p class="dashboard_text op"><span class="img"><img src="../../assets/images/home.png" alt="home"></span> &nbsp; Dashboard</p>
+            </div>
+            <div class="menu_item">
+                <p class="menu_item_text"><span class="img"><img src="../../assets/images/benefit.png" alt="home"></span>&nbsp; Menu Item 1</p>
+            </div>
+            <div class="menu_item">
+                <p class="menu_item_text"><span class="img"><img src="../../assets/images/pensioners.png" alt="home"></span>&nbsp; Menu Item 2</p>
+            </div>
+            <div class="menu_item">
+                <p class="menu_item_text"><span class="img"><img src="../../assets/images/contribution.png" alt="home"></span>&nbsp; Menu Item 3</p>
+            </div>
+            <div class="menu_item">
+                <p class="menu_item_text"><span class="img"><img src="../../assets/images/sett.png" alt="home"></span>&nbsp; Menu Item 4</p>
+            </div>
+            <div class="menu_item">
+                <p class="menu_item_text"><span class="img"><img src="../../assets/images/pen.png" alt="home"></span>&nbsp; Menu Item 5</p>
+            </div>
+            <div class="menu_item manage">
+                <p class="menu_item_text"><span class="img"><img src="../../assets/images/sett.png" alt="home"></span>&nbsp; Manage Users</p>
+            </div>
+        </div>
+    
+        <div class="col-md-8 col-lg-9 col-sm-12  right_coulmn">
+            <div class="top p-4">
+                <div class="row">
+                    <div class="col-6 menu_icon">
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-6  notification_bar">
+                                <div class="">
+                                    <div class="note_bar">
+                                        <p class="note_head">Notification Center</p>
+                                        <p class="note_text">You have 2 unread notifications</p>
+                                    </div>
+                                    <div class="not_icon"></div>
+                                    <div class="two">
+                                        <p class="two_text">2</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-6 logout_bar">
+                                <div class="note_bar">
+                                    <p class="note_head">Chidimma Nwanya</p>
+                                    <p class="note_text">Vanity bu juls</p>
+                                </div>
+                                <div class="log_icon"></div>
+                                <div class="two">
+                                    <p ><img src="../../assets/images/logoutGroup.png"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_top">
+                <div class="row">
+                    <div class="col-7">
+                        <p class="dash_text_one">Dashboard</p>
+                    </div>
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-3 max">
+                                        <img src="../../assets/images/span.png">
+                                    </div>
+                                    <div class="col-9 customize_dashboard">
+                                        <p>Customize Dashboard</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 date">
+                                <p>Mon, Jun 22, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user">
+                <div class="grid_user">
+                    <div class=" welcome_back p-4">
+                        <p class="welcome_head">Welcome back! Chidimma.</p>
+                        <p class="welcome_text">See overview of analytics and reporting metrics and a lot 
+                            more interesting stuffs you can do here.</p>
+                        <button class="tourbtn">
+                            Take A Tour
+                        </button>
+                        <div class="img_welcome"></div>
+                    </div>
+
+                    <div class="optimize p-4">
+                        <p class="optimize_head">OPTIMIZED APPLICATION PROCESSING</p>
+                        <p class="optimize_text">We’ve optimized the system to 
+                            process your application as fast as possible.
+                             Click on the button below to get started.</p>
+                        <button class="newRequestbtn">
+                            New Request
+                        </button>
+                        <div class="img_newRequest"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_info mt-5">
+                <div class="grid_card">
+                    <div class="card_detail">
+                        <div class="cd p-4">
+                            <div class="row">
+                                <div class="col-8">
+                                    <p class="annual_header m-0">Annual Play Budget</p>
+                                    <p class="annual_text m-0">Summary</p>
+                                </div>
+                                <div class="col-4">
+                                    <div class="this_year">
+                                        <p class="this_year_text">This Year</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="capex_img d-flex justify-content-center "> 
+                                <img class="img_capex" src="../../assets/images/pie.png" alt="">   
+                            </div>
+                            <div class="details_info">
+                                <div class="grid_info">
+                                    <div class="grid_left">
+                                    <div class="total_pay">
+                                        <p class="total_payheader">Total Pay (NGN)</p>
+                                        <p class="pay_amount">{{ capex_balance + capex_spent }}</p>
+                                    </div>
+                                    <div class="total_spent">
+                                        <p class="total_payheader">Total Spent (NGN)</p>
+                                        <p class="pay_amount">{{ capex_spent }}</p>
+                                    </div>
+                                    </div>
+
+                                    <div class="grid_right">
+                                        <div class="total_pay">
+                                            <p class="total_payheader"><span>icon</span> Total Spent</p>
+                                            <p class="pay_amount"><span>icon</span>Balance</p>
+                                        </div>
+                                        <div class="total_spent">
+                                            <p class="total_payheader">Balance (NGN)</p>
+                                            <p class="pay_amount">{{ capex_balance }}</p>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_detail">
+                        <div class="cd p-4">
+                            <div class="row">
+                                <div class="col-8">
+                                    <p class="annual_header m-0">Annual Play Budget</p>
+                                    <p class="annual_text m-0">Summary</p>
+                                </div>
+                                <div class="col-4">
+                                    <div class="this_year">
+                                        <p class="this_year_text">This Year</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="capex_img d-flex justify-content-center "> 
+                                <img class="img_capex" src="../../assets/images/opex.png" alt="">   
+                            </div>
+                            <div class="det">
+                                <div class="grid_info">
+                                    <div class="grid_left">
+                                    <div class="total_pay">
+                                        <p class="total_payheader">Total Pay (NGN)</p>
+                                        <p class="pay_amount">{{ opex_balance + opex_spent }}</p>
+                                    </div>
+                                    <div class="total_spent">
+                                        <p class="total_payheader">Total Spent (NGN)</p>
+                                        <p class="pay_amount">{{ opex_spent }}</p>
+                                    </div>
+                                    </div>
+
+                                    <div class="grid_right">
+                                        <div class="total_pay">
+                                            <p class="total_payheader"><span><img src="../../assets/images/pink.png"></span>&nbsp; Total Spent</p>
+                                            <p class="pay_amount"><span><img src="../../assets/images/orange.png"></span>&nbsp; Balance</p>
+                                        </div>
+                                        <div class="total_spent">
+                                            <p class="total_payheader">Balance (NGN)</p>
+                                            <p class="pay_amount">{{ opex_balance }}</p>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_detail">
+                        <div class="ced p-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="cards_count m-0">Cards Count</p>
+                                    <p class="cards_text m-0">Summary</p>
+                                </div>
+                                
+                            </div>
+                            <div class="capex_img d-flex justify-content-center "> 
+                                <img class="img_capex" src="../../assets/images/asset.png" alt="">   
+                            </div>
+                            <div class="edd">
+                                <div class="grid_info">
+                                    <div class="grid_left">
+                                    <div class="total_pay">
+                                        <p class="total_payheader_wh">Total Cards</p>
+                                        <p class="pay_amount_wh">{{ asset_use + asset_active }}</p>
+                                    </div>
+                                    <div class="total_spent">
+                                        <p class="total_payheader_wh">Cards in-Use</p>
+                                        <p class="pay_amount_wh">{{ asset_use }}</p>
+                                    </div>
+                                    </div>
+
+                                    <div class="grid_right">
+                                        <div class="total_pay">
+                                            <p class="total_payheader_wh"><span><img src="../../assets/images/yellow.png"></span>&nbsp;  In-use</p>
+                                            <p class="pay_amount_wh"><span><img src="../../assets/images/white.png"></span>&nbsp; In-active</p>
+                                        </div>
+                                        <div class="total_spent">
+                                            <p class="total_payheader_wh">In-active</p>
+                                            <p class="pay_amount_wh">{{ asset_active }}</p>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>

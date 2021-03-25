@@ -1,0 +1,162 @@
+.main {
+    height: 100vh;
+}
+
+.black_column {
+    background-color: black;
+}
+
+.white_column {
+    padding-top: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: white;
+}
+
+.text_s {
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(180deg, #13244E 0%, #75C5F0 100%);
+}
+.text_express{
+    padding-top: 14px;
+    width: 110px;
+    height: 20px;
+    left: 1076px;
+    top: 259px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #5A99C4;
+}
+
+.login_header{
+    width: 195px;
+    height: 82px;
+
+    font-family: France;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+color: #000000;
+}
+
+.login_text{
+    width: 275px;
+height: 20px;
+
+/* Body/main */
+
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+color: #000000;
+}
+.username_input{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    border: none;
+    width: 320px;
+height: 40px;
+left: 1036px;
+top: 485px;
+font-family: 'Source Sans Pro', sans-serif;
+background: #FFFFFF !important;
+box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+border-radius: 6px;
+}
+.password_input{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    border: none;
+    width: 320px;
+height: 40px;
+font-family: 'Source Sans Pro', sans-serif;
+
+/* Color/Neutral/6 - White */
+
+background: #FFFFFF;
+/* Dropshadow 1 */
+
+box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+border-radius: 6px;
+
+}
+::placeholder{
+    
+    width: 208px;
+height: 20px;
+
+
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+
+/* Color/Neutral/3 - Grey 75% */
+
+color: #D0C9D6;
+
+}
+.loginBtn{
+//     display: flex;
+// flex-direction: column;
+// align-items: center;
+padding: 0px;
+color: #ffffff;
+border: none;
+outline: none;
+
+width: 320px;
+height: 40px;
+left: 1036px;
+top: 611px;
+
+
+background: #13244E;
+border-radius: 6px;
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+
+/* Color/Neutral/6 - White */
+
+}
+.forget_passwordtxt{
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+
+color: #0093DD;
+
+}
