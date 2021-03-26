@@ -1,3 +1,4 @@
+import { not } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
 import { AppService } from '../app.service';
 
@@ -8,12 +9,13 @@ import { AppService } from '../app.service';
 })
 export class DashboardComponent implements OnInit {
   data: any;
-  capex_balance: any;
-  capex_spent: any;
-  opex_balance: any;
-  opex_spent: any;
-  asset_use: any;
-  asset_active: any;
+  capex_balance: number;
+  capex_spent: number;
+  opex_balance: number;
+  opex_spent: number;
+  asset_use: number;
+  asset_active: number;
+  notifications: number;
 
   constructor(private api: AppService) { }
 
@@ -25,6 +27,7 @@ export class DashboardComponent implements OnInit {
   }
 
   getDetails() {
+    this.notifications = this.data.total_notification;
     this.data.stat.forEach( x => {
       this.capex_balance =x[0].balance;
       this.capex_spent = x[0].spent;

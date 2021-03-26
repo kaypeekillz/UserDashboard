@@ -213,6 +213,10 @@
     color: #FFFFFF;
 }
 
+// .down_arrow {
+//     margin-right: 10px;
+// }
+
 .menu_item_text {
     font-style: normal;
     font-weight: normal;
@@ -394,20 +398,23 @@
 }
 
 .this_year{
-    width: 95px;
+    // width: 95px;
     height: 30px;
-    left: 527px;
-    top: 453px;
+    // left: 527px;
+    // top: 453px;
+    justify-content: center;
+    display: flex;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(184, 193, 209, 0.26);
     border-radius: 5px;
 }
 
 .this_year_text{
-    width: 58px;
-    height: 19px;
-    left: 536px;
-    top: 459px;
+    // width: 58px;
+    // height: 19px;
+    // left: 536px;
+    // top: 459px;
+    margin-top: 5px;
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
