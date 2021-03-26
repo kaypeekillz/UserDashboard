@@ -20,15 +20,14 @@
             </p>
         </div>
         <div class="form">
-            <form [formGroup]="loginForm">
+            <form [formGroup]="loginForm" (ngSubmit)="login()">
                 <div class="username mb-3">
-                    <input class="username_input" type="text" placeholder="Username" formControlName="username">
+                    <input (change)="setUsername($event.target.value)" class="username_input" type="text" placeholder="Username" formControlName="username">
                 </div>
                 <div class="password mb-3">
-                    <input class="password_input" type="password" placeholder="Enter Password" formControlName="password">
+                    <input (change)="setPassword($event.target.value)" class="password_input" type="password" placeholder="Enter Password" formControlName="password">
                 </div>
-                
-                <button routerLink="/dashboard" class="loginBtn mb-3">LOG IN</button>
+                <button (click)="login()" class="loginBtn mb-3">LOG IN</button>
               </form>
               <div class="forget_password">
                   <p class="forget_passwordtxt">Forgot Password?</p>

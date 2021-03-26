@@ -25,8 +25,6 @@ export class DashboardComponent implements OnInit {
   }
 
   getDetails() {
-    console.log(this.data);
-    console.log("stat: ", this.data.stat); 
     this.data.stat.forEach( x => {
       this.capex_balance =x[0].balance;
       this.capex_spent = x[0].spent;
